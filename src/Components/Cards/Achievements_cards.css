@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+.Achievements_cards_body{
+
+    height: 50%;
+      overflow: hidden;
+      background: hsl(0,0%,95%);
+      font-family: 'Staatliches', cursive;
+  margin: 10px;  
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  text-decoration: none;
+}
+.Achievements_cards_wrapper{
+
+    position: relative;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 40vh;
+    
+    background: hsl(0,0%,95%);
+    box-shadow: 1px 1px 25px 3px rgba(0,0,0,.3); 
+}
+.Achievements_cards_header {
+    position: absolute;
+  width: max-content;
+  font-size: 2.875rem;
+
+  white-space: nowrap;
+  
+  top: 4%;
+  left: 5%;
+}
+.Achievements_cards_header::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    
+    background: rgb(0, 0, 0);
+}
+.Achievements_cards_content{
+    position: absolute;
+  font-size: 1rem;
+  width: 60%;
+  
+  top: 30%;
+  left: 5%;
+}
+.Achievements_cards_image{
+    position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 40%;
+  height: 100%;
+  /* background-image: url(https://images.unsplash.com/photo-1580707578919-892eb22db615?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1hbiUyMHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60); */
+  clip-path: polygon(35% 0%, 100% 0, 100% 100%, 8% 100%); 
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (min-width: 900px){
+  .Achievements_cards_header{
+    font-size: 2rem;
+  }
+  .Achievements_cards_content{
+    font-size: 0.8rem;
+    width: 55%;
+  }
+  .Achievements_cards_image{
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 400px){
+  .Achievements_cards_header{
+    font-size: 2rem;
+  }
+  .Achievements_cards_content{
+    font-size: 0.8rem;
+    width: 55%;
+  }
+  .Achievements_cards_image{
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 500px){
+  .Achievements_cards_header{
+    font-size: 1.2rem;
+  }
+  .Achievements_cards_content{
+    font-size: 0.8rem;
+    width: 55%;
+  }
+  .Achievements_cards_image{
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 400px){
+  .Achievements_cards_header{
+    font-size: 1.2rem;
+  }
+  .Achievements_cards_content{
+    font-size: 0.8rem;
+    width: 55%;
+  }
+  .Achievements_cards_image{
+    width: 45%;
+  }
+}

@@ -1,0 +1,256 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+} */
+.top-header {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  min-height: 30vh;
+  background: #000;
+}
+
+/* .exordium-paragraph {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 20px;
+} */
+
+.content {
+  position: relative;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.content h2 {
+  position: absolute;
+  color: #fff;
+  transform: translate(-50%, 25%);
+  font-size: 8em;
+  text-align: center;
+}
+
+.content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #f03f2f;
+}
+
+.content h2:nth-child(2) {
+  color: #ad362a;
+  clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%, 100% {
+    clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+  }
+  50% {
+    clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+  }
+}
+
+
+
+/* Gallery  */
+.gcontainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 8%;
+}
+
+/* ... other styles ... */
+
+.gallery {
+  display: grid;
+  grid-gap: 30px;
+  justify-content: center;
+}
+
+
+
+/* For laptop and tablet view (up to 1440px) */
+@media (max-width: 2560px) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(450px, 1fr));
+  }
+  .gcontainer{
+    justify-content: center;
+  }
+  .content h2 {
+    font-size: 10em;
+  }
+}
+@media (max-width: 1440px) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(450px, 1fr));
+  }
+  .gcontainer{
+    justify-content: center;
+  }
+  .content h2 {
+    font-size: 8em;
+  }
+}
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+  .gcontainer{
+    justify-content: center;
+  }
+  .content h2 {
+    font-size: 6em;
+  }
+}
+
+/* For mobile view (up to 575px) */
+@media (max-width: 575px) {
+  .gallery {
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
+  .gcontainer{
+    justify-content: center;
+  }
+  .content h2 {
+    font-size: 4em;
+  }
+}
+
+
+/* .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+} */
+
+.gallery img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.image-popup {
+  position: relative;
+  width: 80%; /* Adjust the width to your preference */
+  max-width: 100%;
+  height: auto;
+  max-height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-popup img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height:  60vh;;
+  object-fit: contain;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.nav-btns button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-btns button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+
+/* 
+
+.image-popup {
+  position: relative;
+  width: 80%; 
+  height: 80vh; 
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.image-popup img {
+  width: 60%; 
+  height: 60vh;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  display: block;
+  margin: 0 auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.nav-btns button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-btns button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+} 
+ */
