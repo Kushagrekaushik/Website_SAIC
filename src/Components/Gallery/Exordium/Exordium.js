@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './Exordium.css';
-import img1 from '../../../images/Gallery/Exordium/DSC_0009 (1).png';
-import img2 from '../../../images/Gallery/Exordium/DSC_0186.png';
-import img3 from '../../../images/Gallery/Exordium/DSC_0838 - Copy.png';
-import img4 from '../../../images/Gallery/Exordium/DSC_0891.png';
-import img5 from '../../../images/Gallery/Exordium/DSC_0904.png';
-import img6 from '../../../images/Gallery/Exordium/DSC_0934 (1).png';
-import img7 from '../../../images/Gallery/Exordium/DSC_0966.png';
-import img8 from '../../../images/Gallery/Exordium/DSC_0970.png';
-import img9 from '../../../images/Gallery/Exordium/IMG_4450.png';
-import img10 from '../../../images/Gallery/Exordium/IMG_4470 - Copy.png';
+import img1 from '../../../images/Gallery/Exordium/img1.png';
+import img2 from '../../../images/Gallery/Exordium/img2.png';
+import img3 from '../../../images/Gallery/Exordium/img3.png';
+import img4 from '../../../images/Gallery/Exordium/img4.png';
+import img5 from '../../../images/Gallery/Exordium/img5.png';
+import img6 from '../../../images/Gallery/Exordium/img6.png';
+import img7 from '../../../images/Gallery/Exordium/img7.png';
+import img8 from '../../../images/Gallery/Exordium/img8.png';
+import img9 from '../../../images/Gallery/Exordium/img9.png';
+import img10 from '../../../images/Gallery/Exordium/img10.png';
 
 const images = [
   // 'https://imagizer.imageshack.com/v2/150x100q70/924/cRIuic.png',

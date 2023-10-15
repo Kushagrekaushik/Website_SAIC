@@ -1,30 +1,30 @@
 import React, { useState } from 'react';
 import './Troubleshoot.css';
-import img1 from '../../../images/Gallery/Exordium/DSC_0009 (1).png';
-import img2 from '../../../images/Gallery/Exordium/DSC_0186.png';
-import img3 from '../../../images/Gallery/Exordium/DSC_0838 - Copy.png';
-import img4 from '../../../images/Gallery/Exordium/DSC_0891.png';
-import img5 from '../../../images/Gallery/Exordium/DSC_0904.png';
-import img6 from '../../../images/Gallery/Exordium/DSC_0934 (1).png';
-import img7 from '../../../images/Gallery/Exordium/DSC_0966.png';
-import img8 from '../../../images/Gallery/Exordium/DSC_0970.png';
-import img9 from '../../../images/Gallery/Exordium/IMG_4450.png';
-import img10 from '../../../images/Gallery/Exordium/IMG_4470 - Copy.png';
+import imgt1 from '../../../images/Gallery/Troubleshoot/img1.tif';
+import imgt2 from '../../../images/Gallery/Troubleshoot/img2.tif';
+import imgt3 from '../../../images/Gallery/Troubleshoot/img3.tif';
+import imgt4 from '../../../images/Gallery/Troubleshoot/img4.tif';
+import imgt5 from '../../../images/Gallery/Troubleshoot/img5.tif';
+import imgt6 from '../../../images/Gallery/Troubleshoot/img6.tif';
+import imgt7 from '../../../images/Gallery/Troubleshoot/img7.tif';
+import imgt8 from '../../../images/Gallery/Troubleshoot/img8.tif';
+import imgt9 from '../../../images/Gallery/Troubleshoot/img9.tif';
+import imgt10 from '../../../images/Gallery/Troubleshoot/img10.tif';
 
 const images = [
   // 'https://imagizer.imageshack.com/v2/150x100q70/924/cRIuic.png',
   // 'https://imagizer.imageshack.com/v2/150x100q70/923/kdwHEW.png'
   // // Add other image URLs here
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10
+  imgt1,
+  imgt2,
+  imgt3,
+  imgt4,
+  imgt5,
+  imgt6,
+  imgt7,
+  imgt8,
+  imgt9,
+  imgt10
 ];
 
 const Troubleshoot = () => {

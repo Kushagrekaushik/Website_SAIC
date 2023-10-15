@@ -1,30 +1,31 @@
 import React, { useState } from 'react';
 import './Convocation.css';
-import img1 from '../../../images/Gallery/Exordium/DSC_0009 (1).png';
-import img2 from '../../../images/Gallery/Exordium/DSC_0186.png';
-import img3 from '../../../images/Gallery/Exordium/DSC_0838 - Copy.png';
-import img4 from '../../../images/Gallery/Exordium/DSC_0891.png';
-import img5 from '../../../images/Gallery/Exordium/DSC_0904.png';
-import img6 from '../../../images/Gallery/Exordium/DSC_0934 (1).png';
-import img7 from '../../../images/Gallery/Exordium/DSC_0966.png';
-import img8 from '../../../images/Gallery/Exordium/DSC_0970.png';
-import img9 from '../../../images/Gallery/Exordium/IMG_4450.png';
-import img10 from '../../../images/Gallery/Exordium/IMG_4470 - Copy.png';
+import imgc1 from '../../../images/Gallery/Convocation/img1.jpg';
+import imgc2 from '../../../images/Gallery/Convocation/img2.png';
+import imgc3 from '../../../images/Gallery/Convocation/img3.png';
+import imgc4 from '../../../images/Gallery/Convocation/img4.png';
+import imgc5 from '../../../images/Gallery/Convocation/img5.jpg';
+import imgc6 from '../../../images/Gallery/Convocation/img6.jpg';
+import imgc7 from '../../../images/Gallery/Convocation/img7.jpg';
+import imgc8 from '../../../images/Gallery/Convocation/img8.jpg';   
+import imgc9 from '../../../images/Gallery/Convocation/img9.jpg';
+import imgc10 from '../../../images/Gallery/Convocation/img10.png';
+
 
 const images = [
   // 'https://imagizer.imageshack.com/v2/150x100q70/924/cRIuic.png',
   // 'https://imagizer.imageshack.com/v2/150x100q70/923/kdwHEW.png'
   // // Add other image URLs here
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10
+  imgc1,
+  imgc2,
+  imgc3,
+  imgc4,
+  imgc5,
+  imgc6,
+  imgc7,
+  imgc8,
+  imgc9,
+  imgc10
 ];
 
 const Convocation = () => {

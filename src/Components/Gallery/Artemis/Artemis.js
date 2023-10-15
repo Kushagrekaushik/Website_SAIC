@@ -1,30 +1,32 @@
 import React, { useState } from 'react';
 import './Artemis.css';
-import img1 from '../../../images/Gallery/Exordium/DSC_0009 (1).png';
-import img2 from '../../../images/Gallery/Exordium/DSC_0186.png';
-import img3 from '../../../images/Gallery/Exordium/DSC_0838 - Copy.png';
-import img4 from '../../../images/Gallery/Exordium/DSC_0891.png';
-import img5 from '../../../images/Gallery/Exordium/DSC_0904.png';
-import img6 from '../../../images/Gallery/Exordium/DSC_0934 (1).png';
-import img7 from '../../../images/Gallery/Exordium/DSC_0966.png';
-import img8 from '../../../images/Gallery/Exordium/DSC_0970.png';
-import img9 from '../../../images/Gallery/Exordium/IMG_4450.png';
-import img10 from '../../../images/Gallery/Exordium/IMG_4470 - Copy.png';
+import imga1 from '../../../images/Gallery/Artemis/img1.tif';
+import imga2 from '../../../images/Gallery/Artemis/img2.tif';
+import imga3 from '../../../images/Gallery/Artemis/img3.tif';
+import imga4 from '../../../images/Gallery/Artemis/img4.tif';
+import imga5 from '../../../images/Gallery/Artemis/img5.tif';
+import imga6 from '../../../images/Gallery/Artemis/img6.tif';
+import imga7 from '../../../images/Gallery/Artemis/img7.tif';
+import imga8 from '../../../images/Gallery/Artemis/img8.tif';
+import imga9 from '../../../images/Gallery/Artemis/img9.tif';
+import imga10 from '../../../images/Gallery/Artemis/img10.tif';
+// import imga10 from '../../../images/Gallery/Artemis/img10';
+
 
 const images = [
   // 'https://imagizer.imageshack.com/v2/150x100q70/924/cRIuic.png',
   // 'https://imagizer.imageshack.com/v2/150x100q70/923/kdwHEW.png'
   // // Add other image URLs here
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10
+  imga1,
+  imga2,
+  imga3,
+  imga4,
+  imga5,
+  imga6,
+  imga7,
+  imga8,
+  imga9,
+  imga10
 ];
 
 const Artemis = () => {
@@ -52,8 +54,8 @@ const Artemis = () => {
 
       <div className='top-header'>
         <div className='content'>
-          <h2>EXORDIUM</h2>
-          <h2>EXORDIUM</h2>
+          <h2>ARTEMIS</h2>
+          <h2>ARTEMIS</h2>
         </div>
         {/* <div className='exordium-paragraph'>
           <p>This is the Exordium paragraph.</p>
