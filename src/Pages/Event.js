@@ -1,7 +1,7 @@
 import React from "react";
 import './Event.css';
 import { useNavigate } from 'react-router-dom';
-
+import img1 from '../images/EventsCards/convo.png';
 
 const Event = () => {
     const navigate = useNavigate();
@@ -72,9 +72,10 @@ const Event = () => {
             <div className="box-container">
                 <div className="flip-card">
                     <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                            <img src="img_avatar.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
-                        </div>
+                    <div className="flip-card-front" style={{ backgroundImage: `url(${img1})`, backgroundSize: 'cover' }}>
+  {/* Your card content goes here */}
+</div>
+
                         <div className="flip-card-back">
                             <h1>GLS</h1>
                             <p>Global Leadership Summit (GLS) is an innovation conclave bringing to you recognised pioneers from all around the world. GLS is designed to foster collaboration, networking, and the exchange of knowledge.</p>
@@ -86,7 +87,7 @@ const Event = () => {
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <img src="img_avatar.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
                         </div>
                         <div className="flip-card-back">
                             <h1>Exordium</h1>
@@ -99,7 +100,7 @@ const Event = () => {
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <img src="img_avatar.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
                         </div>
                         <div className="flip-card-back">
                             <h1>Scribble Day</h1>
@@ -112,7 +113,7 @@ const Event = () => {
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <img src="img_avatar.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
                         </div>
                         <div className="flip-card-back">
                             <h1>E-Farewell</h1>
@@ -125,7 +126,7 @@ const Event = () => {
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <img src="img_avatar.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
                         </div>
                         <div className="flip-card-back">
                             <h1>Troubleshoot</h1>
@@ -139,7 +140,7 @@ const Event = () => {
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <img src="img_avatar.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
                         </div>
                         <div className="flip-card-back">
                             <h1>Artemis</h1>
@@ -154,7 +155,7 @@ const Event = () => {
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <img src="img_avatar.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
                         </div>
                         <div className="flip-card-back">
                             <h1>John Doe</h1>
