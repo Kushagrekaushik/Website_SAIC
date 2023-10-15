@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import './Farewell.css';
-import img1 from '../../../images/Gallery/Exordium/DSC_0009 (1).png';
-import img2 from '../../../images/Gallery/Exordium/DSC_0186.png';
-import img3 from '../../../images/Gallery/Exordium/DSC_0838 - Copy.png';
-import img4 from '../../../images/Gallery/Exordium/DSC_0891.png';
-import img5 from '../../../images/Gallery/Exordium/DSC_0904.png';
-import img6 from '../../../images/Gallery/Exordium/DSC_0934 (1).png';
-import img7 from '../../../images/Gallery/Exordium/DSC_0966.png';
-import img8 from '../../../images/Gallery/Exordium/DSC_0970.png';
-import img9 from '../../../images/Gallery/Exordium/IMG_4450.png';
-import img10 from '../../../images/Gallery/Exordium/IMG_4470 - Copy.png';
+import img1 from '../../../images/Gallery/Farewell/01.jpg';
+import img2 from '../../../images/Gallery/Farewell/02.jpg';
+import img3 from '../../../images/Gallery/Farewell/03.jpg';
+import img4 from '../../../images/Gallery/Farewell/04.jpg';
+import img5 from '../../../images/Gallery/Farewell/05.jpg';
+import img6 from '../../../images/Gallery/Farewell/06.jpg';
+import img7 from '../../../images/Gallery/Farewell/07.jpg';
+import img8 from '../../../images/Gallery/Farewell/08.jpg';
+import img9 from '../../../images/Gallery/Farewell/09.jpg';
+import img10 from '../../../images/Gallery/Farewell/10.jpg';
+import bg from '../../../images/bg.png';
+import bg1 from '../../../images/bg1.png';
+import back from '../../../images/team.png';
 
 const images = [
   // 'https://imagizer.imageshack.com/v2/150x100q70/924/cRIuic.png',
@@ -50,11 +53,14 @@ const Farewell = () => {
   return (
     <div >
 
-      <div className='top-header'>
-        <div className='content'>
+      <div className='top-header' 
+      // style={{ backgroundImage: `url(${back})`,height:`200px`}}
+
+      >
+        <div className='content' >
           <h2>Farewell</h2>
           <h2>Farewell</h2>
-        </div>
+        </div >
         {/* <div className='exordium-paragraph'>
           <p>This is the Exordium paragraph.</p>
         </div> */}

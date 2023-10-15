@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 import './Scribble.css';
-import img1 from '../../../images/Gallery/Exordium/DSC_0009 (1).png';
-import img2 from '../../../images/Gallery/Exordium/DSC_0186.png';
-import img3 from '../../../images/Gallery/Exordium/DSC_0838 - Copy.png';
-import img4 from '../../../images/Gallery/Exordium/DSC_0891.png';
-import img5 from '../../../images/Gallery/Exordium/DSC_0904.png';
-import img6 from '../../../images/Gallery/Exordium/DSC_0934 (1).png';
-import img7 from '../../../images/Gallery/Exordium/DSC_0966.png';
-import img8 from '../../../images/Gallery/Exordium/DSC_0970.png';
-import img9 from '../../../images/Gallery/Exordium/IMG_4450.png';
-import img10 from '../../../images/Gallery/Exordium/IMG_4470 - Copy.png';
+import img1 from '../../../images/Gallery/ScribbleDay/img1.jpg';
+import img2 from '../../../images/Gallery/ScribbleDay/img2.jpg';
+import img3 from '../../../images/Gallery/ScribbleDay/img3.jpg';
+import img4 from '../../../images/Gallery/ScribbleDay/img4.jpg';
+import img5 from '../../../images/Gallery/ScribbleDay/img5.jpg';
+import img6 from '../../../images/Gallery/ScribbleDay/img6.jpg';
+import img7 from '../../../images/Gallery/ScribbleDay/img7.jpg';
+import img8 from '../../../images/Gallery/ScribbleDay/img8.jpg';
+import img9 from '../../../images/Gallery/ScribbleDay/img9.jpg';
+import img10 from '../../../images/Gallery/ScribbleDay/img10.jpg';
+
 
 const images = [
   // 'https://imagizer.imageshack.com/v2/150x100q70/924/cRIuic.png',
