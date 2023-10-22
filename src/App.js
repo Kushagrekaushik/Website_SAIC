@@ -18,7 +18,9 @@ import Reunion from './Pages/Reunion';
 import AlmaConnect from './Pages/AlmaConnet';
 import AlumniCards from './Components/Cards/AlumniCards';
 import AlumniCardsMain from './Pages/AlumniCardsMain';
-
+import Home from "./Components/whysaic";
+import Sponsors from "./Components/sponors";
+import Team from './Components/Team';
 const routes=createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Layout/>}>
     <Route  path='/Alumni' element={<Alumni/>}/>
@@ -40,6 +42,9 @@ const routes=createBrowserRouter(createRoutesFromElements(
     <Route  path='/event' element={<Event/>}/>
     <Route  path='/Exordium' element={<Exordium/>}/>
     <Route  path='/AlumniCardsMain' element={<AlumniCardsMain/>}/>
+    <Route  path='/Home' element={<Home/>}/>
+    <Route  path='/Sponsor' element={<Sponsors/>}/>
+    <Route  path='/Team' element={<Team/>}/>
 
   </Route>
 ))
