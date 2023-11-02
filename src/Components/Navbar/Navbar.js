@@ -23,6 +23,8 @@ const Navbars = () => {
                 {/* <Link to="/home">Home</Link> */}
                 <Link to="/home" className="hover-anim">Home</Link>
                 <Link to="/Event" className="hover-anim">Events</Link>
+                <Link to="/Team" className="hover-anim">Team</Link> 
+                <Link to="/Sponsor" className="hover-anim">Sponsor</Link> 
                 <Link to="/Alumni" className="hover-anim">Our Alumni</Link> 
                 <Link to="/Contact" className="hover-anim">Contact us</Link> 
                 {/* <Nav.Link href="#pricing">Link 2</Nav.Link>  

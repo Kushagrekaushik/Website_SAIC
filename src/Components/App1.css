@@ -1,0 +1,135 @@
+insitehead{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(226, 226, 226, 0.288);
+}
+.secondvp{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222 ;
+}
+.secondvp img{
+    width: 6000px;
+}
+
+.seccontainer{
+    position: relative;
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: minmax(100px, auto);
+    margin: 40px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+}
+
+.seccontainer .secbox {
+
+    background-color: #333;
+    display: grid;
+
+    place-items: center;
+    text-align: center;
+
+    color: #fff;
+    transition: 0.5s;
+}
+
+.seccontainer .secbox p{
+
+
+
+    font-size: 15px;
+
+}
+
+.seccontainer .secbox:hover{
+    background-color: rgb(17, 17, 17);
+
+}
+
+
+.seccontainer .secbox img{
+    position: relative;
+    align-items: center;
+    align-self: center;
+    max-width: 100px;
+    margin-bottom: 10px;
+
+}
+
+.secbox:nth-child(1)
+{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.secbox:nth-child(2)
+{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.secbox:nth-child(3)
+{
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.secbox:nth-child(4)
+{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.secbox:nth-child(5)
+{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.under {
+    position: relative;
+    display: inline-block;
+    color: red;
+}
+.under::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+
+    left: 0;
+    width: 97%;
+    border-bottom: 0.6vh solid red;
+
+}
+
+
+
+.card-text{color: red;font-size: large;font-weight: 700;}
+.footer{
+    padding-top: 40px;
+    bottom: auto;
+    position: absolute;
+    background-color: #f3f4f69a;
+    width: 100%;
+}
+.copyright{
+    margin-left: 620px;
+}
+.logoimg{
+    width: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
