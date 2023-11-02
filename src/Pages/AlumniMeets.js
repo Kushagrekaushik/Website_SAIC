@@ -55,8 +55,8 @@ const AlumniMeet = () => {
     return (
         <div className="meets-body">
             <Video />
+            
             <div >
-                
             <h1 className="Alumni_meets_headings">Alumni Meets</h1>
             <p className="Alumni_meets_para">SAIC's core principle is to bridge the gap between alumni and students at Thapar. In line with this principle, SAIC organizes alumni meets, inviting Thapar alumni to return to campus for a short visit. During these events, alumni have the opportunity to tour the campus, reconnect with faculty, and reminisce about their old memories.</p>
             </div>

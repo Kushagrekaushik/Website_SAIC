@@ -52,24 +52,29 @@ const Reunion = () => {
       <div className='reunion-background'>
       <div className='reunion-overlay'>
         <div className='reunion-descrition'>
+        <div id='stars'></div>
+            <div id='stars2'></div>
+            <div id='stars3'></div>
+            <div id='title'></div> 
           <h1 className='reunion-descrition-h1'>Reunion</h1>
-          <p className='reunion-descrition-p'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p className='reunion-descrition-p'> "Fostering a strong alumni-student connection is at the core of SAIC's mission. To achieve this, we host an annual Alumni Reunion event, bringing together former Thapar alumni for a two-day journey down memory lane. They reconnect with faculty, tour the campus, and participate in cultural programs, all to strengthen the enduring bond between past and present, preserving Thapar University's legacy."</p>
         </div>
       </div>
       </div>
 
 
+<div className='reunionblack_bg'>
 
       <div className="gcontainer">
         <div className="gallery">
           {images.map((url, index) => (
             <img
-              key={index}
-              src={url}
-              alt={`Image ${index}`}
-              onClick={() => openImage(index)}
+            key={index}
+            src={url}
+            alt={`Image ${index}`}
+            onClick={() => openImage(index)}
             />
-          ))}
+            ))}
         </div>
       </div>
       {isImageOpen && (
@@ -81,7 +86,7 @@ const Reunion = () => {
             <img
               src={images[selectedImageIndex]}
               alt={`Image ${selectedImageIndex}`}
-            />
+              />
             <div className="nav-btns">
               <button onClick={() => navigateImage(-1)} disabled={selectedImageIndex === 0}>
                 &lt; Prev
@@ -93,6 +98,7 @@ const Reunion = () => {
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 };

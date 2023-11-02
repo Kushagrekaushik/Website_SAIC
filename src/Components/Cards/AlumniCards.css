@@ -6,12 +6,14 @@
     font-family: sans-serif;
     /* background: linear-gradient(#141e30, #243b55); */
     background: linear-gradient(#870101, #320000);
+    /* background-image: url(); */
     /* background: -moz-linear-gradient(left, #ff0000 0%, #700801 100%); */
     /* align-items: center; */
     display: flex;
       justify-content: center;
       align-items: center;
       min-height: 80vh;
+
   }
   
   .login-box {
