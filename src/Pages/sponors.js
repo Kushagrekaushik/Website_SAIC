@@ -1,21 +1,21 @@
 import React from "react";
-import Tata from "./images1/Tata.jpg";
-import CB from "./images1/codingblocks.jpeg";
-import kotak from "./images1/kotak.png";
-import boston from "./images1/boston.png";
-import rapido from "./images1/rapido.png";
-import hell from "./images1/hell.png";
-import HH from "./images1/HeadHeart.png";
-import indus from "./images1/indus.png";
-import paytm from "./images1/paytm.png";
-import redbull from "./images1/redbull.png";
-import oyo from "./images1/oyo.png";
-import byko from "./images1/byko.png";
-import fast from "./images1/fast.png";
-import indmoney from "./images1/indmoney.png";
-import verka from "./images1/verka.png";
-import "./App1.css";
-import Footer from "./Footer/Footer";
+import Tata from "../images/images1/Tata.jpg";
+import CB from "../images/images1/codingblocks.jpeg";
+import kotak from "../images/images1/kotak.png";
+import boston from "../images/images1/boston.png";
+import rapido from "../images/images1/rapido.png";
+import hell from "../images/images1/hell.png";
+import HH from "../images/images1/HeadHeart.png";
+import indus from "../images/images1/indus.png";
+import paytm from "../images/images1/paytm.png";
+import redbull from "../images/images1/redbull.png";
+import oyo from "../images/images1/oyo.png";
+import byko from "../images/images1/byko.png";
+import fast from "../images/images1/fast.png";
+import indmoney from "../images/images1/indmoney.png";
+import verka from "../images/images1/verka.png";
+import "./Home.css";
+// import Footer from "../Components/Footer/Footer";
 function Sponsors(props) {
   return (
     <div>
@@ -270,7 +270,7 @@ function Sponsors(props) {
           </button>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

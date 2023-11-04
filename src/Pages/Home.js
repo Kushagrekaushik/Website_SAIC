@@ -1,6 +1,7 @@
 import React from "react";
-import videoSource from './images1/video.mp4';
-import "./App1.css";
+// import videoSource from './images1/video.mp4';
+import videoSource from '../images/images1/video.mp4';
+import "./Home.css";
 function Whysaic(props) {
   return (
     <div>
@@ -54,7 +55,7 @@ function Whysaic(props) {
           <div className="seccontainer pt-2">
             <div className="secbox" id="secbox">
               <div className="seccontent">
-                <img src={require("./team.svg").default} alt="" />
+                <img src={require("../Components/team.svg").default} alt="" />
                 <h3>Teamwork: Achieve More Together!</h3>
                 <p>
                   Unleash the power of teamwork and collaboration to accomplish
@@ -64,7 +65,7 @@ function Whysaic(props) {
             </div>
             <div className="secbox px-3 py-3" id="secbox">
               <div className="seccontent">
-                <img src={require("./growth.svg").default} alt=" " />
+                <img src={require("../Components/growth.svg").default} alt=" " />
                 <h3>The Growth Support Center </h3>
                 <p>
                   Master the art of turning ideas into reality with expert
@@ -75,7 +76,7 @@ function Whysaic(props) {
 
             <div className="secbox  px-3 py-3" id="secbox">
               <div className="seccontent">
-                <img src={require("./leader.svg").default} alt="" />
+                <img src={require("../Components/leader.svg").default} alt="" />
                 <h3>Campus Leaders</h3>
                 <p>
                   An opportunity to boost your career path with excellent
@@ -86,7 +87,7 @@ function Whysaic(props) {
 
             <div className="secbox  px-3 py-3" id="secbox">
               <div className="seccontent">
-                <img src={require("./hack.svg").default} alt="logo" />
+                <img src={require("../Components/hack.svg").default} alt="logo" />
                 <h3>Hack your Growth</h3>
                 <p>
                   {" "}
@@ -98,7 +99,7 @@ function Whysaic(props) {
 
             <div className="secbox  px-3 py-3" id="secbox">
               <div className="seccontent">
-                <img src={require("./network.svg").default} alt="" />
+                <img src={require("../Components/network.svg").default} alt="" />
                 <h3>Networking</h3>
                 <p>
                   Scale professionally by gaining access to a huge corporate
@@ -110,7 +111,7 @@ function Whysaic(props) {
 
             <div className="secbox  px-3 py-3" id="secbox">
               <div className="seccontent">
-                <img src={require("./decision.svg").default} alt="logo" />
+                <img src={require("../Components/decision.svg").default} alt="logo" />
                 <h3>Discernment</h3>
                 <p>
                   {" "}

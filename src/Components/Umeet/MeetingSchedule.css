@@ -12,7 +12,7 @@
   display: flex;
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
 }
 
 

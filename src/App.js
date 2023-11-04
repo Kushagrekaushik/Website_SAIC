@@ -18,9 +18,9 @@ import Reunion from './Pages/Reunion';
 import AlmaConnect from './Pages/AlmaConnet';
 import AlumniCards from './Components/Cards/AlumniCards';
 import AlumniCardsMain from './Pages/AlumniCardsMain';
-import Home from "./Components/whysaic";
-import Sponsors from "./Components/sponors";
-import Team from './Components/Team';
+import Home from "./Pages/Home";
+import Sponsors from "./Pages/sponors";
+import Team from './Pages/Team';
 const routes=createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Layout/>}>
     <Route  path='/Alumni' element={<Alumni/>}/>
