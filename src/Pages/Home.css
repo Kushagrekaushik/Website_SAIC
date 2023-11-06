@@ -108,13 +108,13 @@ insitehead{
 
 
 .card-text{color: red;font-size: large;font-weight: 700;}
-.footer{
+/* .footer{
     padding-top: 40px;
     bottom: auto;
     position: absolute;
     background-color: #f3f4f69a;
     width: 100%;
-}
+} */
 .copyright{
     margin-left: 620px;
 }
