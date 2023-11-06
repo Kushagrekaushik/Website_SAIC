@@ -5,29 +5,44 @@ import './AlumniMeets.css';
 
 
 
-import img1 from '../images/Gallery/Exordium/DSC_0009 (1).png';
-import img2 from '../images/Gallery/Exordium/DSC_0186.png';
-import img3 from '../images/Gallery/Exordium/DSC_0838 - Copy.png';
-import img4 from '../images/Gallery/Exordium/DSC_0891.png';
-import img5 from '../images/Gallery/Exordium/DSC_0904.png';
-import img6 from '../images/Gallery/Exordium/DSC_0934 (1).png';
-import img7 from '../images/Gallery/Exordium/DSC_0966.png';
-import img8 from '../images/Gallery/Exordium/DSC_0970.png';
-import img9 from '../images/Gallery/Exordium/IMG_4450.png';
-import img10 from '../images/Gallery/Exordium/IMG_4470 - Copy.png';
+import imgd1 from '../images/AlumniMeets/DelhiMeet/img1.jpg';
+import imgd2 from '../images/AlumniMeets/DelhiMeet/img2.jpg';
+import imgd3 from '../images/AlumniMeets/DelhiMeet/img3.jpg';
+import imgd4 from '../images/AlumniMeets/DelhiMeet/img4.jpg';
+import imgd5 from '../images/AlumniMeets/DelhiMeet/img5.jpg';
+import imgd6 from '../images/AlumniMeets/DelhiMeet/img6.jpg';
+import imgd7 from '../images/AlumniMeets/DelhiMeet/img7.jpg';
+import imgd8 from '../images/AlumniMeets/DelhiMeet/img8.jpg';
+import imgm1 from '../images/AlumniMeets/Mumbaimeet/imgm1.jpg';
+import imgm2 from '../images/AlumniMeets/Mumbaimeet/imgm2.jpg';
+import imgm3 from '../images/AlumniMeets/Mumbaimeet/imgm3.jpg';
+import imgm4 from '../images/AlumniMeets/Mumbaimeet/imgm4.jpg';
+import imgm5 from '../images/AlumniMeets/Mumbaimeet/imgm5.jpg';
+import imgm6 from '../images/AlumniMeets/Mumbaimeet/imgm6.jpg';
+import imgm7 from '../images/AlumniMeets/Mumbaimeet/imgm7.jpg';
+import imgm8 from '../images/AlumniMeets/Mumbaimeet/imgm8.jpg';
+import imgm9 from '../images/AlumniMeets/Mumbaimeet/imgm9.jpg';
+import imgm10 from '../images/AlumniMeets/Mumbaimeet/imgm10.jpg';
 
 const images = [
 
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-    img7,
-    img8,
-    img9,
-    img10
+    
+    imgm1,
+    imgm2,
+    imgm3,
+    imgm4,
+    imgm5,
+    imgm6,
+    imgm7,
+    imgm8,
+    imgd1,
+    imgd2,
+    imgd3,
+    imgd4,
+    imgd5,
+    imgd6,
+    imgd7,
+    imgd8
 ];
 
 
