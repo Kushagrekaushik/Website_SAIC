@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import './Reunion.css';
-import img1 from '../images/Gallery/Exordium/DSC_0009 (1).png';
-import img2 from '../images/Gallery/Exordium/DSC_0186.png';
-import img3 from '../images/Gallery/Exordium/DSC_0838 - Copy.png';
-import img4 from '../images/Gallery/Exordium/DSC_0891.png';
-import img5 from '../images/Gallery/Exordium/DSC_0904.png';
-import img6 from '../images/Gallery/Exordium/DSC_0934 (1).png';
-import img7 from '../images/Gallery/Exordium/DSC_0966.png';
-import img8 from '../images/Gallery/Exordium/DSC_0970.png';
-import img9 from '../images/Gallery/Exordium/IMG_4450.png';
-import img10 from '../images/Gallery/Exordium/IMG_4470 - Copy.png';
+import img1 from '../Components/Gallery/Reunion/img1.jpg';
+import img2 from '../Components/Gallery/Reunion/img2.jpg';
+import img3 from '../Components/Gallery/Reunion/img3.jpg';
+import img4 from '../Components/Gallery/Reunion/img4.jpg';
+import img5 from '../Components/Gallery/Reunion/img5.jpg';
+import img6 from '../Components/Gallery/Reunion/img6.jpg';
+import img7 from '../Components/Gallery/Reunion/img7.jpg';
+import img8 from '../Components/Gallery/Reunion/img8.jpg';
+
 
 
 
@@ -22,9 +21,7 @@ const images = [
   img5,
   img6,
   img7,
-  img8,
-  img9,
-  img10
+  img8
 ];
 
 const Reunion = () => {

@@ -70,15 +70,15 @@ const Alumni = () => {
 const AchievementsHandler=()=>{
   navigate('/Achievements');
 }
-const MeetsHandler=()=>{
-  navigate('/meets');
-}
+// const MeetsHandler=()=>{
+//   navigate('/meets');
+// }
 const RenunionHandler=()=>{
   navigate('/Reunion');
 }
-const AlmaConnectHandler=()=>{
-  navigate('/AlmaConnect');
-}
+// const AlmaConnectHandler=()=>{
+//   navigate('/AlmaConnect');
+// }
 const AlumniCardHandler=()=>{
   navigate('/AlumniCardsMain');
 }
@@ -95,26 +95,26 @@ const AlumniCardHandler=()=>{
          
         </Card>
         </div>
-        <div className='card-individual-alumni' onClick={MeetsHandler}>
+        {/* <div className='card-individual-alumni' onClick={MeetsHandler}>
         <Card dataImage="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
           <h1 slot="header" className='h1-Alumni'>Meets</h1>
           <p slot="content" className='p-Alumni'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </Card>
-        </div>
+        </div> */}
         <div className='card-individual-alumni' onClick={RenunionHandler}>
         <Card dataImage="https://imagizer.imageshack.com/img924/5142/KhI9uz.jpg">
           <h1 slot="header" className='h1-Alumni'>Reunion</h1>
           <p slot="content" className='p-Alumni'>Alumni Reunion event, bringing together former Thapar alumni.</p>
         </Card>
         </div>
-        <div className='card-individual-alumni' onClick={AlmaConnectHandler}>
+        {/* <div className='card-individual-alumni' onClick={AlmaConnectHandler}>
         <Card dataImage="https://images.unsplash.com/photo-1479621051492-5a6f9bd9e51a?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop=">
           <h1 slot="header" className='h1-Alumni'>Alma Connect</h1>
           <p slot="content" className='p-Alumni'>AlmaConnect is an alumni networking platform</p>
         </Card>
-        </div>
+        </div> */}
         <div className='card-individual-alumni' onClick={AlumniCardHandler}> 
-        <Card dataImage="https://images.unsplash.com/photo-1489987708386-e6a6e11b01d2?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
+        <Card dataImage="https://imagizer.imageshack.com/img923/1674/fIEzmD.jpg">
           <h1 slot="header" className='h1-Alumni'>Alumni Cards</h1>
           <p slot="content" className='p-Alumni'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </Card>

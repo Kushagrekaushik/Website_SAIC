@@ -37,7 +37,7 @@ const Team = () => {
                   <div className="imgBx">
                   {/* <img src={JNPImage} alt="Images" />
                    */}
-                   <img src="https://imagizer.imageshack.com/img922/6380/xu2j2F.jpg" alt="Images" />
+                   <img src="https://imagizer.imageshack.com/img923/4315/dVfRio.jpg" alt="Images" />
                   </div>
                   <div className="details">
                       <h2>Jatin Narula<br /><span>Vice-President</span></h2>
@@ -57,7 +57,7 @@ const Team = () => {
                   <div className="imgBx">
                   {/* <img src={ARPImage} alt="Images" /> */}
                   {/* <img src="https://imagizer.imageshack.com/img923/1272/xiQOsp.jpg" alt="Images" /> */}
-                  <img src="https://imagizer.imageshack.com/img924/8309/CzqTPP.jpg" alt="Images" />
+                  <img src="https://imagizer.imageshack.com/img922/7936/CTjH4S.png" alt="Images" />
                   </div>
                   <div className="details">
                       <h2>Manav Singla <br /><span>Vice-President</span></h2>

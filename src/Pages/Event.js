@@ -1,7 +1,14 @@
 import React from "react";
 import './Event.css';
 import { useNavigate } from 'react-router-dom';
-import img1 from '../images/EventsCards/convo.png';
+import img1 from '../images/EventsCards/gls.png';
+import img2 from '../images/EventsCards/exordium2.png';
+import img3 from '../images/EventsCards/scribble.png';
+import img4 from '../images/EventsCards/farewell.png';
+import img5 from '../images/EventsCards/troubleshoot.png';
+import img6 from '../images/EventsCards/artemis.png';
+import img7 from '../images/EventsCards/convo.png';
+
 
 const Event = () => {
     const navigate = useNavigate();
@@ -86,8 +93,8 @@ const Event = () => {
 
                 <div className="flip-card">
                     <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                       
+                        <div className="flip-card-front" style={{ backgroundImage: `url(${img2})`, backgroundSize: 'cover' }}>
                         </div>
                         <div className="flip-card-back">
                             <h1>Exordium</h1>
@@ -99,8 +106,8 @@ const Event = () => {
 
                 <div className="flip-card">
                     <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                       
+                        <div className="flip-card-front" style={{ backgroundImage: `url(${img3})`, backgroundSize: 'cover' }}>
                         </div>
                         <div className="flip-card-back">
                             <h1>Scribble Day</h1>
@@ -112,8 +119,7 @@ const Event = () => {
 
                 <div className="flip-card">
                     <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                    <div className="flip-card-front" style={{ backgroundImage: `url(${img4})`, backgroundSize: 'cover' }}>
                         </div>
                         <div className="flip-card-back">
                             <h1>E-Farewell</h1>
@@ -125,8 +131,7 @@ const Event = () => {
 
                 <div className="flip-card">
                     <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                    <div className="flip-card-front" style={{ backgroundImage: `url(${img5})`, backgroundSize: 'cover' }}>
                         </div>
                         <div className="flip-card-back">
                             <h1>Troubleshoot</h1>
@@ -139,13 +144,12 @@ const Event = () => {
 
                 <div className="flip-card">
                     <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                    <div className="flip-card-front" style={{ backgroundImage: `url(${img6})`, backgroundSize: 'cover' }}>
                         </div>
                         <div className="flip-card-back">
                             <h1>Artemis</h1>
-                            <p>Architect & Engineer</p>
-                            <p>We love that guy</p>
+                            <p>Artemis, an electrifying event orchestrated by SAIC, presents a unique fusion of intellectual acumen and adrenaline-charged challenges. Geared towards thrill-seekers and puzzle solvers alike, this real-life treasure hunt redefines interactive entertainment. The event demands participants to harmonize their problem-solving prowess, analytical thinking, and effective communication to overcome each obstacle.</p>
+                           
                             <button onClick={ArtemisHandler} className="read-more-btn">Read More</button>
                         </div>
                     </div>
@@ -154,13 +158,12 @@ const Event = () => {
 
                 <div className="flip-card">
                     <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                            <img src="../images/EventsCards/convo.png" alt="Avatar" style={{ 'width': '300px', 'height': '300px' }} />
+                    <div className="flip-card-front" style={{ backgroundImage: `url(${img7})`, backgroundSize: 'cover' }}>
                         </div>
                         <div className="flip-card-back">
-                            <h1>John Doe</h1>
-                            <p>Architect & Engineer</p>
-                            <p>We love that guy</p>
+                            <h1>Convocation</h1>
+                            <p>The SAIC's convocation event is a dynamic platform where students and accomplished alumni converge to foster knowledge exchange and networking. Through alumni talks, interactive sessions, and workshops, attendees gain valuable insights into diverse career paths, industry trends, and skill development. The event encourages meaningful interactions, providing a bridge between academic learning and real-world experiences.</p>
+                            
                             <button onClick={ConvocationHandler} className="read-more-btn">Read More</button>
                         </div>
                     </div>
