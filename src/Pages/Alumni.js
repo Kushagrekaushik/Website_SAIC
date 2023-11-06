@@ -114,7 +114,7 @@ const AlumniCardHandler=()=>{
         </Card>
         </div> */}
         <div className='card-individual-alumni' onClick={AlumniCardHandler}> 
-        <Card dataImage="https://imagizer.imageshack.com/img923/1674/fIEzmD.jpg">
+        <Card dataImage="https://imagizer.imageshack.com/img924/304/e00DBn.jpg">
           <h1 slot="header" className='h1-Alumni'>Alumni Cards</h1>
           <p slot="content" className='p-Alumni'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </Card>
