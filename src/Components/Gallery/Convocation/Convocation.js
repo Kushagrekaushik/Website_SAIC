@@ -53,8 +53,8 @@ const Convocation = () => {
 
       <div className='top-header'>
         <div className='content'>
-          <h2>EXORDIUM</h2>
-          <h2>EXORDIUM</h2>
+          <h2>CONVOCATION</h2>
+          <h2>CONVOCATION</h2>
         </div>
         {/* <div className='exordium-paragraph'>
           <p>This is the Exordium paragraph.</p>

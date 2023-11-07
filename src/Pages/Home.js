@@ -2,7 +2,7 @@ import React from "react";
 // import videoSource from './images1/video.mp4';
 import videoSource from '../images/images1/video.mp4';
 import "./Home.css";
-function Whysaic(props) {
+const Home=()=> {
   return (
     <div>
     <marquee style={{  fontSize: "18px",color:"red",background:"gray",height:"auto"}}>
@@ -127,4 +127,4 @@ function Whysaic(props) {
   );
 }
 
-export default Whysaic;
+export default Home;

@@ -19,9 +19,9 @@ const Footer = () => {
                 <div class="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Sponser Us</a></li>
+                        <li><a href="/Home">Home</a></li>
+                        <li><a href="/Events">Events</a></li>
+                        <li><a href="/Contact">Sponser Us</a></li>
                         <li><a href="#">Aluni</a></li>
                     </ul>
                 </div>
@@ -37,10 +37,10 @@ const Footer = () => {
                 <div class="footer-col">
                     <h4>follow us</h4>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/SAIC.Thapar/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/@saictv7529"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/saic_tiet/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/student-alumni-interaction-cell/mycompany/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

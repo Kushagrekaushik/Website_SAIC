@@ -53,8 +53,8 @@ const Scribble = () => {
 
       <div className='top-header'>
         <div className='content'>
-          <h2>Scribble Day</h2>
-          <h2>Scribble Day</h2>
+          <h2>ScribbleDay</h2>
+          <h2>ScribbleDay</h2>
         </div>
         {/* <div className='exordium-paragraph'>
           <p>This is the Exordium paragraph.</p>

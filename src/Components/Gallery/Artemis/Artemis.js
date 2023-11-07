@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './Artemis.css';
-import imga1 from '../../../images/Gallery/Artemis/img1.tif';
-import imga2 from '../../../images/Gallery/Artemis/img2.tif';
-import imga3 from '../../../images/Gallery/Artemis/img3.tif';
-import imga4 from '../../../images/Gallery/Artemis/img4.tif';
-import imga5 from '../../../images/Gallery/Artemis/img5.tif';
-import imga6 from '../../../images/Gallery/Artemis/img6.tif';
-import imga7 from '../../../images/Gallery/Artemis/img7.tif';
-import imga8 from '../../../images/Gallery/Artemis/img8.tif';
-import imga9 from '../../../images/Gallery/Artemis/img9.tif';
-import imga10 from '../../../images/Gallery/Artemis/img10.tif';
+import imga1 from '../../../images/Gallery/Artemis/DSC_0011 (Medium).jpg';
+import imga2 from '../../../images/Gallery/Artemis/DSC_0026 (Medium).jpg';
+import imga3 from '../../../images/Gallery/Artemis/DSC_0044 (Medium).jpg';
+import imga4 from '../../../images/Gallery/Artemis/DSC_0078 (Medium).jpg';
+import imga5 from '../../../images/Gallery/Artemis/DSC_0089 (Medium).jpg';
+import imga6 from '../../../images/Gallery/Artemis/DSC_0113 (Medium).jpg';
+import imga7 from '../../../images/Gallery/Artemis/DSC_0125 (Medium).jpg';
+import imga8 from '../../../images/Gallery/Artemis/DSC_0140 (Medium).jpg';
+import imga9 from '../../../images/Gallery/Artemis/DSC_0144 (Medium).jpg';
+import imga10 from '../../../images/Gallery/Artemis/DSC_0163 (Medium).jpg';
 // import imga10 from '../../../images/Gallery/Artemis/img10';
 
 

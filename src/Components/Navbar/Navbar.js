@@ -11,7 +11,7 @@ const Navbars = () => {
         <>  
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">  
           <Container>  
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="/Home">
             <img className="logo" src={'https://imagizer.imageshack.com/img922/940/NhtgxL.png'} />
             </Navbar.Brand>  
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />  
@@ -21,7 +21,7 @@ const Navbars = () => {
               <Nav className="me-auto" > 
                
                 {/* <Link to="/home">Home</Link> */}
-                <Link to="/home" className="hover-anim">Home</Link>
+                <Link to="/Home" className="hover-anim">Home</Link>
                 <Link to="/Event" className="hover-anim">Events</Link>
                 <Link to="/Team" className="hover-anim">Team</Link> 
                 <Link to="/Sponsor" className="hover-anim">Sponsor</Link> 

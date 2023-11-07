@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './Troubleshoot.css';
-import imgt1 from '../../../images/Gallery/Troubleshoot/img1.tif';
-import imgt2 from '../../../images/Gallery/Troubleshoot/img2.tif';
-import imgt3 from '../../../images/Gallery/Troubleshoot/img3.tif';
-import imgt4 from '../../../images/Gallery/Troubleshoot/img4.tif';
-import imgt5 from '../../../images/Gallery/Troubleshoot/img5.tif';
-import imgt6 from '../../../images/Gallery/Troubleshoot/img6.tif';
-import imgt7 from '../../../images/Gallery/Troubleshoot/img7.tif';
-import imgt8 from '../../../images/Gallery/Troubleshoot/img8.tif';
-import imgt9 from '../../../images/Gallery/Troubleshoot/img9.tif';
-import imgt10 from '../../../images/Gallery/Troubleshoot/img10.tif';
+import imgt1 from '../../../images/Gallery/Troubleshoot/DSC_0063 (Medium).jpg';
+import imgt2 from '../../../images/Gallery/Troubleshoot/DSC_0197 (Medium).jpg';
+import imgt3 from '../../../images/Gallery/Troubleshoot/DSC_0272 (Medium).jpg';
+import imgt4 from '../../../images/Gallery/Troubleshoot/DSC_0289 (Medium).jpg';
+import imgt5 from '../../../images/Gallery/Troubleshoot/DSC_0310 (Medium).jpg';
+import imgt6 from '../../../images/Gallery/Troubleshoot/DSC_0317 (Medium).jpg';
+import imgt7 from '../../../images/Gallery/Troubleshoot/DSC_0403 (Medium).jpg';
+import imgt8 from '../../../images/Gallery/Troubleshoot/DSC_0452 (Medium).jpg';
+import imgt9 from '../../../images/Gallery/Troubleshoot/IMG-20230129-WA0101 (Medium).jpg';
+import imgt10 from '../../../images/Gallery/Troubleshoot/rNeBgQUjA6sfdxwX9gH3J-FkXFTyAAhhXQBhQ2ZtEgY=_plaintext_638106514452974520 (Medium).jpg';
 
 const images = [
   // 'https://imagizer.imageshack.com/v2/150x100q70/924/cRIuic.png',
